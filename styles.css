@@ -1,0 +1,91 @@
+html{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select,
+button,
+input[type="date"],
+label {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+label.checkbox-label {
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.checkbox-label input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.checkbox-label input[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="date"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-right: 30px;
+  background: url('calendar-icon.png') no-repeat center right;
+}
+
+input[type="date"]::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input[type="date"]:-moz-placeholder {
+  color: #aaa;
+}
+
+input[type="date"]::-moz-placeholder {
+  color: #aaa;
+}
+
+input[type="date"]:-ms-input-placeholder {
+  color: #aaa;
+}
+
+
+
